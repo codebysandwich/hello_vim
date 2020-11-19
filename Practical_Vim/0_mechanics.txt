@@ -1,0 +1,7 @@
+Line one
+Line two
+Line three
+Line four
+
+---------------------
+x删除字符，.命令“重复上次修改”
