@@ -1,7 +1,8 @@
-Line one
-Line two
-Line three
-Line four
-
+line one
+line two
+line three
+line four col
+foo(bar, col, num):
+	pass
 ---------------------
 x删除字符，.命令“重复上次修改”
