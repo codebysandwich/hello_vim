@@ -1,8 +1,17 @@
 # hello_vim
-[TOC]
-Learning vim, vim-plugin.
+**Content**
+<!-- vim-markdown-toc GitLab -->
+
+* [Learning vim, vim-plugin.](#learning-vim-vim-plugin)
+* [原生vim](#原生vim)
+	* [Nornal mode](#nornal-mode)
+
+<!-- vim-markdown-toc -->
+
+## Learning vim, vim-plugin.
 <img src='https://i.loli.net/2020/11/19/O4Emq8LFjoIaGHc.jpg' width='80%' height='50%'></img>
 ![](https://i.loli.net/2020/11/19/a5pkoCtMX9r14wR.gif)
+
 ---
 ## 原生vim
 原生vim本身就已经比较强大了，拥有四种模式:
@@ -22,7 +31,7 @@ Visual模式下高亮选中的部分文件并可执行一次操作。
 ```
 Ex模式可以执行命令，Nornal模式下:可以进入命令模式。
 ```
-<++>
+
 ### Nornal mode
 |key|describe|move cursor|
 |:-:|:-:|:-:|
