@@ -2,13 +2,13 @@
 **Content**
 <!-- vim-markdown-toc GitLab -->
 
-* [Learning vim, vim-plugin.](#learning-vim-vim-plugin)
+* [简介](#简介)
 * [原生vim](#原生vim)
 	* [Nornal mode](#nornal-mode)
 
 <!-- vim-markdown-toc -->
 
-## Learning vim, vim-plugin.
+## 简介
 <img src='https://i.loli.net/2020/11/19/O4Emq8LFjoIaGHc.jpg' width='80%' height='50%'></img>
 ![](https://i.loli.net/2020/11/19/a5pkoCtMX9r14wR.gif)
 
@@ -33,9 +33,25 @@ Ex模式可以执行命令，Nornal模式下:可以进入命令模式。
 ```
 
 ### Nornal mode
-|key|describe|move cursor|
-|:-:|:-:|:-:|
-|<kbd>h</kbd>|left|:arrow_left:|
-|<kbd>j</kbd>|down|:arrow_down:|
-|<kbd>k</kbd>|up|:arrow_up:|
-|<kbd>l</kbd>|right|:arrow_right:|
+- 移动光标
+
+|      key     | describe |  move cursor  |
+|:------------:|:--------:|:-------------:|
+| <kbd>h</kbd> |   left   |  :arrow_left: |
+| <kbd>j</kbd> |   down   |  :arrow_down: |
+| <kbd>k</kbd> |    up    |   :arrow_up:  |
+| <kbd>l</kbd> |   right  | :arrow_right: |
+
+- 快速移动光标及屏幕显示区域
+
+|      key      |       describe       |
+|:-------------:|:--------------------:|
+| <kbd>^E</kbd> |     向下滚动屏幕     |
+| <kbd>^Y</kbd> |     向上滚动屏幕     |
+| <kbd>^B</kbd> |      向上翻一页      |
+| <kbd>^F</kbd> |      向下翻一页      |
+|  <kbd>H</kbd> | 将光标移动到窗口顶部 |
+|  <kbd>M</kbd> | 将光标移动到窗口中间 |
+|  <kbd>L</kbd> | 将光标移动到窗口底部 |
+| <kbd>gg</kbd> | 将光标移动到文档顶部 |
+|  <kbd>G</kbd> | 将光标移动到文档底部 |
